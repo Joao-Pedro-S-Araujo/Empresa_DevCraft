@@ -556,6 +556,72 @@
   color: #444;
 }
 
+/* Página de Contato */
+.container-contato {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.intro-contato {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro-contato h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.8rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.info-contato {
+  flex: 1;
+  min-width: 250px;
+  font-size: 1rem;
+  color: #444;
+}
+
 
 .botao {
   background-color: #007bff;
