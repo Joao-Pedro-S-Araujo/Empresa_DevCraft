@@ -304,6 +304,94 @@
   #equipe a:hover {
     background-color: #16a085;
   }
+
+/* SOBRE */
+
+.container-sobre {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.sobre {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sobre h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.sobre p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.missao-visao-valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.missao-visao-valores .bloco {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.missao-visao-valores .bloco:hover {
+  transform: translateY(-5px);
+}
+
+.missao-visao-valores h2 {
+  color: #222;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.missao-visao-valores p,
+.missao-visao-valores ul {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.missao-visao-valores ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.botao {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
   
   /* FAQ */
   #faq {
