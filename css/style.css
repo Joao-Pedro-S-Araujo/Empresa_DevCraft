@@ -929,5 +929,59 @@ form button:hover {
     object-fit: cover;
     margin-bottom: 0.5rem;
   }
+
+  
+  .container-detalhes {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .detalhes-produto {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-items: center;
+  }
+  
+  .detalhes-produto img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .info-produto {
+    flex: 1;
+  }
+  
+  .info-produto h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-produto .descricao {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .info-produto .preco {
+    font-size: 1.5rem;
+    color: #1e90ff;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-orcamento {
+    background-color: #1e90ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-orcamento:hover {
+    background-color: #006edc;
+  }
   
   
