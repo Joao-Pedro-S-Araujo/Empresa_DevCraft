@@ -6,6 +6,8 @@
   <title>Produtos | DevCraft</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsivo.css" />
+  <link rel="icon" href="img/produtos/icon.png" type="image/png">
+
 </head>
 <body>
 
@@ -21,7 +23,12 @@
       <a href="equipe.html">Equipe</a>
       <a href="faq.html">FAQ</a>
       <a href="contato.html">Contato</a>
+      <a href="area_clientes.html" class="btn-acesso">Área do Cliente</a>
     </nav>
+    <!-- Menu Responsivo -->
+    <button class="menu-toggle" aria-label="Abrir Menu">
+      &#9776;
+    </button>
   </header>
 
   <!-- Seção de Produtos -->
@@ -35,7 +42,8 @@
         <img src="img/produtos/img01.png" alt="Produto 1" />
         <h3>Loja Virtual Personalizada</h3>
         <p>E-commerce sob medida com painel administrativo e integração com pagamentos.</p>
-        <a href="detalhes-produto.html">Saiba mais</a>
+        <a href="detalhes-produto.html?id=1" class="btn-detalhes">Saiba mais</a>
+
       </div>
 
       <!-- Produto 2 -->
@@ -43,7 +51,8 @@
         <img src="img/produtos/img02.png" alt="Produto 2" />
         <h3>Análise de Dados Personalizada</h3>
         <p>Transformamos seus dados brutos em insights valiosos usando Python (Pandas, Matplotlib, etc.).</p>
-        <a href="detalhes-produto.html">Saiba mais</a>
+        <a href="detalhes-produto.html?id=2" class="btn-detalhes">Saiba mais</a>
+
       </div>
 
       <!-- Produto 3 -->
@@ -51,7 +60,8 @@
         <img src="img/produtos/img03.png" alt="Produto 3" />
         <h3> Sistema de Gestão Empresarial</h3>
         <p>Um sistema completo para controle de estoque, vendas, clientes e relatórios.</p>
-        <a href="detalhes-produto.html">Saiba mais</a>
+        <a href="detalhes-produto.html?id=3" class="btn-detalhes">Saiba mais</a>
+
       </div>
     </div>
   </section>
@@ -71,6 +81,6 @@
       <a href="#">WhatsApp</a>
     </p>
   </footer>
-
+  <script src="js/menu.js"></script>
 </body>
 </html>

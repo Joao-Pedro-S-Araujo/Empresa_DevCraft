@@ -2,11 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Área do Cliente | DevCraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes do Produto | DevCraft</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsivo.css" />
   <link rel="icon" href="img/produtos/icon.png" type="image/png">
+
 </head>
 <body>
 
@@ -30,29 +31,17 @@
     </button>  
   </header>
 
-  <main class="container-area-cliente">
-    <section class="boas-vindas">
-      <h1>Bem-vindo à Área do Cliente</h1>
-      <p>Aqui você encontra todas as informações importantes relacionadas aos seus pedidos e serviços.</p>
-    </section>
-
-    <section class="dados-cliente">
-      <h2>Seus dados</h2>
-      <ul>
-        <li><strong>Nome:</strong> João da Silva</li>
-        <li><strong>Email:</strong> joao@email.com</li>
-        <li><strong>Serviço atual:</strong> Desenvolvimento de site personalizado</li>
-        <li><strong>Status:</strong> Em andamento</li>
-      </ul>
-    </section>
-
-    <section class="acoes-cliente">
-      <h2>O que deseja fazer?</h2>
-      <ul class="acoes-lista">
-        <li><a href="#">Atualizar meus dados</a></li>
-        <li><a href="#">Enviar nova mensagem</a></li>
-        <li><a href="#">Visualizar arquivos</a></li>
-      </ul>
+  <main class="container-detalhes">
+    <section class="detalhes-produto">
+      <img src="img/produtos/produto01.png" alt="Nome do Produto" />
+      <div class="info-produto">
+        <h1>Nome do Produto</h1>
+        <p class="descricao">
+          Descrição detalhada do produto, suas características, benefícios e outras informações relevantes para o cliente.
+        </p>
+        <p class="preco">R$ 199,90</p>
+        <a href="contato.html" class="btn-orcamento">Solicitar serviço</a>
+      </div>
     </section>
   </main>
 
@@ -61,5 +50,6 @@
   </footer>
 
   <script src="js/menu.js"></script>
+  <script src="js/detalhesProduto.js"></script>
 </body>
 </html>
