@@ -72,14 +72,21 @@ O site é responsivo, adaptando-se bem a diferentes resoluções:
 
 ## 👨‍💻 Autores
 
-- João Pedro S. Araujo
-- Allan Mello
-- Naiúry
-- João victor de Oliveira
-- Vinicíus Cintra Silva
-- Diogo Alexandre Algarves Silva
-- Renan
-- Pedro Oliveira
+- João Pedro S. Araujo - RA: 425108378
+
+- Allan Melo da Silva - RA: 425100632
+
+- Diogo Alexandre Algarves Silva - RA: 415105430
+
+- Vinícius Cintra Silva - RA: 425105259
+
+- João Victor de Oliveira Costa - RA: 425102118
+
+- Renan Oliveira Nascimento - RA: 425103750
+
+- Pedro Henrique Bento De Oliveira - RA: 425101893
+
+- Naiúry Samily Da Rosa Silva - RA: 2225101654
 
 ## 📝 Licença
 
